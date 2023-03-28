@@ -17,7 +17,25 @@
 	<hr />
 	
 	<!-- num1과 num2를 더한 값 출력 -->
+	<h3>num1 : <%= request.getParameter("num1")%></h3>
+	<h3>num2 : <%= request.getParameter("num2")%></h3>
 	
+	<%
+	String num1 = request.getParameter("num1");
+	String num2 = request.getParameter("num2");
+	
+	if (num1 == null || num2 == null) {
+		out.print("<h3>값을 입력해주세요</h3>");
+	} else if (num1.isEmpty() || num2.isEmpty()) {
+		out.print("<h3>값을 입력해주세요</h3>");
+	} else {
+	%>
+		<h3><%= num1 %> + <%= num2 %> 
+		= <%= Integer.parseInt(num1) + Integer.parseInt(num2) %></h3>
+	<%
+	}
+	
+	%>
 </body>
 </html>
 
