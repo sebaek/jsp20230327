@@ -1,5 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
+<%!
+private void myMethod(int num) {
+	System.out.println(num);
+}
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,15 +14,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Expression (표현식) </h1>
-	<p>출력(print) 메소드의 파라미터</p>
+	<h1>declaration</h1>
+	<%
+	myMethod(99);
+	%>
+	<%
+	myMethod(100);
+	%>
 	
-	<%= "hello" %>
-	
-	<%= 1 + 10 %> 
-	
+
 </body>
 </html>
+
 
 
 
