@@ -28,7 +28,7 @@
 	%>
 	
 	<%-- jsp 주석 --%>
-
+	<!-- ctrl + shift + / -->
 	<script>
 		console.log("js console log");
 		// js 주석
