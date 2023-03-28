@@ -27,6 +27,34 @@
 	<!--  좋아하는 영화 장르들 출력  -->
 	<!--  좋아하는 음악 장르들 출력  -->
 	<!--  만약 선택한 것이 없으면 없다고 출력 -->
+	<%
+	String[] movies = request.getParameterValues("movie");
+	String[] songs = request.getParameterValues("song");
+	%>
+
+	<h3>선택한 좋아하는 영화들</h3>	
+	<%
+	if (movies == null) {
+		out.print("없습니다.");
+	} else {
+		for (String movie : movies) {
+			out.print(movie);
+			out.print("<br>");
+		}
+	}
+	%>
+	
+	<h3>선택한 좋아하는 음악들</h3>
+	<%
+	if (songs == null) {
+		out.print("없습니다.");
+	} else {
+		for (String song : songs) {
+			out.print(song);
+			out.print("<br>");
+		}
+	}
+	%>
 </body>
 </html>
 
