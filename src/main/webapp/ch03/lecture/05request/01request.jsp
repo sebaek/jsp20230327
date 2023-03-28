@@ -30,6 +30,19 @@
 		}
 		%>
 	</ul>
+	
+	<hr />
+	
+	<h1>Header Name : Header Value</h1>
+	<%
+	headerNames = request.getHeaderNames().asIterator();
+	while (headerNames.hasNext()) {
+		String name = headerNames.next();
+		out.print("<p>");
+		out.print(name + ":" + request.getHeader(name));
+		out.print("</p>");
+	}
+	%>
 </body>
 </html>
 
