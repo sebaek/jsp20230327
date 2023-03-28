@@ -1,3 +1,4 @@
+<%@page import="java.util.Arrays"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -17,6 +18,16 @@
 		<input type="checkbox" name="hobby" value="basketball" /> 농구 <br />
 		<input type="submit" value="전송" />
 	</form>	
+	
+	<hr />
+	
+	<%
+	String[] hobbyArr = request.getParameterValues("hobby");
+	System.out.println(hobbyArr);
+	if (hobbyArr != null) {
+		System.out.println(Arrays.toString(hobbyArr));
+	}
+	%>
 </body>
 </html>
 
