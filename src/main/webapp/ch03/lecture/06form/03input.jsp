@@ -10,6 +10,9 @@
 	<h1>form 요소 연습</h1>
 	<form action="">
 		<!-- 코드 완성 -->
+		<input type="text" name="address" /> <br />
+		<input type="text" name="city" /> <br />
+		<input type="submit" value="전송" />
 	</form>
 	<hr />
 	<%
