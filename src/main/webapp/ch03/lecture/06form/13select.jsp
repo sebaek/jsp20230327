@@ -19,5 +19,28 @@
 		</select>
 		<input type="submit" value="전송" />
 	</form>	
+	
+	<hr />
+	
+	<%
+	String[] params = request.getParameterValues("param1");
+	if (params != null) {
+		out.println("<ul>");
+		
+			for (String p : params) {
+				out.println("<li>");
+				out.println(p);
+				out.println("</li>");
+			}
+		
+		out.println("</ul>");
+	}
+	%>
 </body>
 </html>
+
+
+
+
+
+
