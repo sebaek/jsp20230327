@@ -21,5 +21,13 @@
 	<jsp:include page="infoSub.jsp">
 		<jsp:param value="B" name="type"/>
 	</jsp:include>
+	
+	
 </body>
 </html>
+
+
+
+
+
+
