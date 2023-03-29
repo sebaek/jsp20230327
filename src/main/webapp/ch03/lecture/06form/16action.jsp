@@ -13,6 +13,11 @@
 <!-- https://search.naver.com/search.naver 로 보내지도록 form요소 작성 -->
 
 <!-- 예시) https://search.naver.com/search.naver?query=avatar2 -->
+
+<form action="https://search.naver.com/search.naver">
+	<input type="text" name="query" />
+	<input type="submit" value="검색" />
+</form>
 </body>
 </html>
 
