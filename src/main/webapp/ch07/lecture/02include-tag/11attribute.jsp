@@ -10,8 +10,13 @@
 	<h1>11번 파일</h1>
 	
 	<!--  코드 작성  -->
-	
+	<%
+	request.setAttribute("abc", new java.util.HashMap());	
+	%>
 	<jsp:include page="12sub.jsp"></jsp:include>
 
 </body>
 </html>
+
+
+
