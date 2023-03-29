@@ -10,7 +10,7 @@
 	<h1>select option</h1>
 	<!-- form>select>option[value=value$]{value$}*5^input:s -->
 	<form action="">
-		<select name="" id="">
+		<select name="param1" id="" multiple>
 			<option value="value1">value1</option>
 			<option value="value2">value2</option>
 			<option value="value3">value3</option>
