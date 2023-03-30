@@ -8,17 +8,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>세션 아이디 보기</h1>
-	<h1><%= session.getId() %></h1>
-	
+
+	<h1>세션 파기</h1>
+	<% session.invalidate(); %>
+
 	<hr />
 	
-	<a href="09invalidate.jsp">세션 파기하기</a>
+	<a href="08sessionid.jsp">세션 아이디보기</a>
 </body>
 </html>
-
-
-
 
 
 
