@@ -19,6 +19,8 @@
 		<input type="submit" value="장바구니 담기" />
 	</form>
 	
+	<hr />
+	
 	<form action="" method="post">
 		<input type="hidden" name="remove" value="true" />
 		<input type="submit" value="장바구니 비우기" />
