@@ -8,7 +8,20 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>이름 : <%= request.getParameter("name") %></h1>
-	<h1>스포츠 : <%= request.getParameter("sports") %></h1>
+	<%
+	String n = (String) request.getAttribute("name");
+	%>
+	
+	<h1>이름 : <%= n %></h1>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
