@@ -19,6 +19,11 @@
 		<input type="submit" value="장바구니 담기" />
 	</form>
 	
+	<form action="" method="post">
+		<input type="hidden" name="remove" value="true" />
+		<input type="submit" value="장바구니 비우기" />
+	</form>
+	
 	<hr />
 	<h3>장바구니</h3>
 	<%
@@ -31,6 +36,12 @@
 	if (product != null && !product.isEmpty()) {
 		cart.add(product);
 	}
+	String remove = request.getParameter("remove");
+	
+	if (remove != null && remove.equals("true")) {
+		cart.clear();
+	}
+	
 	out.println("<ul>");
 	for (String c : cart) {
 		out.println("<li>");
