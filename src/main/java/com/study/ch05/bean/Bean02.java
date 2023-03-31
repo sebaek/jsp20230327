@@ -5,6 +5,8 @@ public class Bean02 {
 	private String model;
 	private double price;
 
+	// property 
+	// : get, set 메소드에서 get, set을 제외하고 첫번째 글자를 소문자로 바꿈
 	public int getId() {
 		return id;
 	}
