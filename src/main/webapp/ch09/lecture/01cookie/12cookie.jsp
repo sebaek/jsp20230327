@@ -19,6 +19,10 @@
 	%>
 	
 	<a href="03view-cookie.jsp">쿠키 보러 가기</a>
+	
+	<br />
+	
+	<a href="13view-cookie.jsp">한글값 쿠키 보러 가기</a>
 </body>
 </html>
 
