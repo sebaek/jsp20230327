@@ -20,15 +20,19 @@
 	%>
 	<p>\${person.name } : ${person.name }</p>
 	<p>\${person["name"] } : ${person["name"] }</p>
+	<p>\${person['name'] } : ${person['name'] }</p>
 	
 	<p>\${person.age } : ${person.age }</p>
-	<p></p> <!-- [] -->
+	<p>\${person["age"] } : ${person["age"] }</p> <!-- [] -->
+	<p>\${person['age'] } : ${person['age'] }</p>
 	
 	<p>\${person.address } : ${person.address }</p>
-	<p></p> <!-- [] -->
+	<p>\${person["address"] } : ${person["address"] }</p> <!-- [] -->
+	<p>\${person['address'] } : ${person['address'] }</p>
 	
 	<p>\${person.married } : ${person.married }</p>
-	<p></p> <!-- [] -->
+	<p>\${person["married"] } : ${person["married"] }</p> <!-- [] -->
+	<p>\${person['married'] } : ${person['married'] }</p>
 </body>
 </html>
 
