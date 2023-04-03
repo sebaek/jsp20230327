@@ -12,5 +12,13 @@
 	<p>이름 : </p>
 	<p>주소 : </p>
 	<p>나이 : </p>
+	
+	<a href="04paramForm.jsp">4번 파일로 이동</a>
 </body>
+
 </html>
+
+
+
+
+
