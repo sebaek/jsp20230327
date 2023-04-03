@@ -6,6 +6,11 @@
 Bean04 b1 = new Bean04();
 
 request.setAttribute("player", b1);
+
+b1.setName("송태섭");
+b1.setAddress("제주도");
+b1.setAge(20);
+b1.setMarried(true);
 %>
 
 <jsp:forward page="06javaBeanTo.jsp" />
