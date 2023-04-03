@@ -19,6 +19,7 @@
 	pageContext.setAttribute("p1", o1);
 	pageContext.setAttribute("name", "name");
 	pageContext.setAttribute("myattr1", "name");
+	pageContext.setAttribute("age", "married");
 	%>
 	<!-- p1 attribute의 name property 출력 -->
 	<p>\${p1["name"] } : ${p1["name"] }</p> 
@@ -27,7 +28,7 @@
 	<p>\${p1[name] } : ${p1[name] }</p>
 	
 	<p>\${p1[myattr1] } : ${p1[myattr1] }</p>
-	<p></p>
+	<p>\${p1[age] } : ${p1[age] }</p> <!-- ? -->
 </body>
 </html>
 
