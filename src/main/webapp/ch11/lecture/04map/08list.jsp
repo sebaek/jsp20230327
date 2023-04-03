@@ -19,9 +19,15 @@
 	
 	<p>${tool.langs[0] }</p> <!-- java -->
 	<p>${tool.langs[1] }</p> <!-- python -->
-	<p></p> <!-- c -->
-	<p></p> <!-- spring -->
-	<p></p> <!-- nextjs -->
+	<p>${tool.langs[2] }</p> <!-- c -->
+	<p>${tool.framework[0] }</p> <!-- spring -->
+	<p>${tool.framework[1] }</p> <!-- nextjs -->
+	<hr />
+	<p>${tool["langs"][0] }</p> <!-- java -->
+	<p>${tool["langs"][1] }</p> <!-- python -->
+	<p>${tool["langs"][2] }</p> <!-- c -->
+	<p>${tool['framework'][0] }</p> <!-- spring -->
+	<p>${tool['framework'][1] }</p> <!-- nextjs -->
 </body>
 </html>
 
