@@ -12,13 +12,13 @@
 	pageContext.setAttribute("myAttr1", 99);
 	request.setAttribute("myAttr2", 300);
 	session.setAttribute("myAttr3", "hello world");
-	application.setAttribute("myAtt4", "hello jsp");
+	application.setAttribute("myAttr4", "hello jsp");
 	%>
 	
-	<p></p> <!-- hello jsp -->
-	<p></p> <!-- hello world -->
-	<p></p> <!-- 300 -->
-	<p></p> <!-- 99 -->
+	<p>${myAttr4 }</p> <!-- hello jsp -->
+	<p>${myAttr3 }</p> <!-- hello world -->
+	<p>${myAttr2 }</p> <!-- 300 -->
+	<p>${myAttr1 }</p> <!-- 99 -->
 </body>
 </html>
 
