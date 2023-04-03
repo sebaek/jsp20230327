@@ -18,10 +18,12 @@
 	pageContext.setAttribute("map", map);
 	%>
 	
-	<p></p> <!-- java -->
-	<p></p> <!-- 채치수 -->
-	<p></p> <!-- 신촌 -->
-	<p></p> <!-- 30 -->
+	<p>${map.myKey }</p> <!-- java -->
+	<p>${map["myKey"] }</p> <!-- java -->
+	<p>${map["my-name"] }</p> <!-- 채치수 -->
+	<p>${map["my address"] }</p> <!-- 신촌 -->
+	<p>${map.myAge }</p> <!-- 30 -->
+	<p>${map["myAge"] }</p> <!-- 30 -->
 </body>
 </html>
 
