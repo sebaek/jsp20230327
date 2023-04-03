@@ -21,10 +21,10 @@
 	pageContext.setAttribute("myAttr5", "page value2");
 	application.setAttribute("myAttr5", "application value3");
 	%>
-	<p>\${ myAttr2 }</p>
-	<p>\${ myAttr3 }</p>
-	<p>\${ myAttr4 }</p>
-	<p>\${ myAttr5 }</p>
+	<p>\${ myAttr2 } : ${ myAttr2 }</p>
+	<p>\${ myAttr3 } : ${ myAttr3 }</p>
+	<p>\${ myAttr4 } : ${ myAttr4 }</p>
+	<p>\${ myAttr5 } : ${ myAttr5 }</p>
 	
 </body>
 </html>
