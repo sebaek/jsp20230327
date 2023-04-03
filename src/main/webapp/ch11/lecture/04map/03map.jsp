@@ -16,7 +16,9 @@
 	%>
 
 
-	<p>${mymap[mykey] }</p>
+	<p>${mymap[mykey] }</p> <!-- yourvalue -->
+	<p>${mymap.mykey }</p> <!-- myvalue -->
+	<p>${mymap["mykey"] }</p> <!-- myvalue -->
 </body>
 </html>
 
