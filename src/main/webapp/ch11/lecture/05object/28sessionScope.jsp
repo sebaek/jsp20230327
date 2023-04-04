@@ -10,6 +10,10 @@
 <body>
 	<%
 	//코드 작성
+	pageContext.setAttribute("attr1", "서태웅");
+	request.setAttribute("attr1", "강백호");
+	session.setAttribute("attr1", "채치수");
+	session.setAttribute("session attribute", "정대만");
 	%>
 	
 	
