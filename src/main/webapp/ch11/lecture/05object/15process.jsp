@@ -12,10 +12,10 @@
 	<p>이름 : ${param.name }</p>
 	<p>취미 :
 		<ul>
-			<li>${paramValues[0] }</li>
-			<li>${paramValues[1] }</li>
-			<li>${paramValues[2] }</li>
-			<li>${paramValues[3] }</li>
+			<li>${paramValues.hobby[0] }</li>
+			<li>${paramValues.hobby[1] }</li>
+			<li>${paramValues.hobby[2] }</li>
+			<li>${paramValues.hobby[3] }</li>
 		</ul>
 	</p>	
 
