@@ -10,6 +10,11 @@
 <body>
 	<%
 	// 코드 작성
+	pageContext.setAttribute("attr1", "이한나");
+	request.setAttribute("attr1", "채소연");
+	session.setAttribute("attr1", "송태섭");
+	application.setAttribute("attr1", "서태웅");
+	application.setAttribute("app value", "정대만");
 	%>
 
 	<p>${attr1 }</p> <!-- 이한나 -->
