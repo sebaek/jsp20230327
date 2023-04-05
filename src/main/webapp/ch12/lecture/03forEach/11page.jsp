@@ -12,7 +12,31 @@
 </head>
 <body>
 	<!-- 11페이지 ~ 20페이지 -->
-
+	<nav>
+		<ul class="pagination">
+			<c:forEach begin="11" end="20" var="pageNumber">
+				<li class="page-item
+					<c:if test="${pageNumber == param.p }">
+						active
+					</c:if>
+				">
+					<a href="?p=${pageNumber }" class="page-link">${pageNumber }</a>
+				</li>
+			</c:forEach>
+		</ul>
+	</nav>
+	
+	<hr />
+	
+	<nav>
+		<ul class="pagination">
+			<c:forEach begin="11" end="20" var="pageNumber">
+				<li class="page-item ${pageNumber == param.p ? 'active' : '' }">
+					<a href="?p=${pageNumber }" class="page-link">${pageNumber }</a>
+				</li>
+			</c:forEach>
+		</ul>
+	</nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
