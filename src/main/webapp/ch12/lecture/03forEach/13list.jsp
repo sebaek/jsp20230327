@@ -14,6 +14,7 @@
 	
 	<%
 	// 코드 작성
+	pageContext.setAttribute("movies", List.of("avatar", "slamdunk", "scream"));
 	%>
 
 	<!-- 영화명 3개 출력 -->
