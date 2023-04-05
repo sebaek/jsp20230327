@@ -9,17 +9,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>구구단 5단</h1>
-	<!-- 5 X 1 ~~~ 5 X 9 -->
-	<c:forEach var="n" begin="1" end="9">
-		<p>5 X ${n } = ${5 * n }</p>
-	</c:forEach>
+	<h1>7번</h1>
+	<form action="08process.jsp">
+		구구단 <input type="number" name="dan" value="2" /> 단
+		<input type="submit" value="보기" />
+	</form>
 </body>
 </html>
-
-
-
-
 
 
 
