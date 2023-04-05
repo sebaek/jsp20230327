@@ -9,6 +9,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<a href="07form.jsp">7번으로</a>
+	<br />
+	<c:forEach var="n" begin="1" end="9">
+		${param.dan } X ${n } = ${param.dan * n } <br />
+	</c:forEach>
 </body>
 </html>
+
+
+
+
+
+
+
+
