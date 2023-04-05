@@ -14,6 +14,12 @@
 	<c:forEach var="n" begin="1" end="9">
 		${param.dan } X ${n } = ${param.dan * n } <br />
 	</c:forEach>
+	
+	<hr />
+	<c:forEach var="n" begin="1" end="9">
+		${param.dan } X ${(10-n) } = ${param.dan * (10-n) } <br />
+	</c:forEach>
+	
 </body>
 </html>
 
