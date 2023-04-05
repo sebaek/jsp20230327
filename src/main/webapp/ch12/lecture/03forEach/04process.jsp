@@ -9,6 +9,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<a href="03form.jsp">3번으로</a>
+	<c:forEach begin="1" end="${param.count }">
+		<p>${param.name }</p>
+	</c:forEach>
 </body>
 </html>
+
+
+
+
+
+
+
