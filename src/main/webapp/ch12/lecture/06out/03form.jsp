@@ -11,6 +11,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
+	<!-- 손 <script>document.body.style.backgroundColor="red"</script> 흥민 -->
 	<h1>3번 파일</h1>
 	<form action="04process.jsp" method="post">
 		이름 : <input type="text" name="username" size="300"/>
