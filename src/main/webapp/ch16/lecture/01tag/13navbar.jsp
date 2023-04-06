@@ -13,11 +13,11 @@
 </head>
 <body>
 	<!-- navbar -->
-	<d:mytag13 />
+	<d:mytag13 active="home" />
 
 	<!-- .container-lg.mt-3>(h1>lorem3^p>lorem)*10 -->
 	<div class="container-lg mt-3">
-		<h1>Lorem ipsum dolor.</h1>
+		<h1>Home</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sunt mollitia quia. Excepturi error totam tempora assumenda illum voluptas officia maxime earum non ducimus cupiditate consequuntur voluptatibus aperiam voluptatem unde!</p>
 		<h1>Libero ratione ex?</h1>
 		<p>Repellendus ut similique porro unde facilis at ipsam iusto rem fugit voluptas illum culpa ratione doloremque laborum minus! Dignissimos illo corporis quidem beatae nostrum autem veniam perspiciatis reiciendis explicabo officiis?</p>
