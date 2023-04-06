@@ -12,7 +12,7 @@
 </head>
 <body>
 	<!-- url 태그 사용 -->
-
+	<c:url value="/ch12/lecture/06out/03form.jsp" var="formUrl" />
 
 	<div>
 		<a href="${formUrl }">06out/03form.jsp로 이동</a>
