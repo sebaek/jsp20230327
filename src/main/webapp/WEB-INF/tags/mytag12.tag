@@ -7,8 +7,11 @@
 <nav>
 	<ul class="pagination">
 		<c:forEach begin="${begin }" end="${end }" var="pageNumber">
+			<c:url value="" var="pageLink">
+				<c:param name="page" value="${pageNumber }"></c:param>
+			</c:url>
 			<li class="page-item ${pageNumber eq active ? 'active' : '' }">
-				<a href="" class="page-link">
+				<a href="${pageLink }" class="page-link">
 					${pageNumber }
 				</a>
 			</li>
