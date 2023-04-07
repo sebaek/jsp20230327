@@ -42,7 +42,7 @@ public class Servlet10 extends HttpServlet {
 		String name = request.getParameter("name");
 		
 		// business logic
-		// 데이터베이스 이름 추가 (session 으로 간단히 흉내)
+		// 데이터베이스에 이름 추가 (session 으로 간단히 흉내)
 		HttpSession session = request.getSession();
 		Object o = session.getAttribute("db");
 		if (o == null) {
