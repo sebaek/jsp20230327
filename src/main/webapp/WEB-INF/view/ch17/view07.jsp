@@ -25,8 +25,9 @@
 	
 	<hr />
 	<h1>선수 이름 수정</h1>
+	<c:url var="updateUrl" value="/lec/sample11" />
 	<form action="${updateUrl }" method="post">
-		<input type="hidden" name="index" />
+		<input type="hidden" name="index" id="input2" />
 		<input type="text" id="input1" name="name" /> 
 		<input type="submit" value="수정" />
 	</form>
@@ -37,7 +38,10 @@
     <script>
     $("li").click(function () {
 		const name = $(this).text();
+		const index = $("li").index(this);
+		
 		$("#input1").val(name);
+		$("#input2").val(index);
 	});
     </script>
 </body>
