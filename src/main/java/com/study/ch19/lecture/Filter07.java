@@ -40,6 +40,8 @@ public class Filter07 extends HttpFilter implements Filter {
 		System.out.println("7번 필터 일함&&&&&&");
 		// pass the request along the filter chain
 		chain.doFilter(request, response);
+		
+		System.out.println("7번 필터 응답시 일함&&&&");
 	}
 
 	/**
