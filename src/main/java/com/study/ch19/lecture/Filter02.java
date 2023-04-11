@@ -40,6 +40,9 @@ public class Filter02 extends HttpFilter implements Filter {
 		System.out.println("필터02 일함@@@@@");
 		// pass the request along the filter chain
 		chain.doFilter(request, response);
+		
+		// 응답시 해야하는 일
+		System.out.println("필터02 응답@@@@@");
 	}
 
 	/**
