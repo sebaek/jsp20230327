@@ -15,6 +15,18 @@
   	<session-timeout>30</session-timeout>
   </session-config>
   
+  <!-- 필터 설정 -->
+  <filter-mapping>
+  	<filter-name>filter08</filter-name>
+  	<url-pattern>/lec/sample17</url-pattern>
+  </filter-mapping>
+  
+  <filter-mapping>
+  	<filter-name>filter07</filter-name>
+  	<url-pattern>/lec/sample17</url-pattern>
+  </filter-mapping>
+  
+  
 </web-app>
 
 
