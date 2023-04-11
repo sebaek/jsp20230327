@@ -41,6 +41,9 @@ public class Filter01 extends HttpFilter implements Filter {
 
 		// pass the request along the filter chain
 		chain.doFilter(request, response);
+		
+		// 응답시 해야하는 일
+		System.out.println("필터01이 응답 처리함!!!!");
 	}
 
 	/**
